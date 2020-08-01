@@ -17,8 +17,12 @@ pip install stable-baselines[mpi]
 ```
 - install the rest of dependencies listed in requirments.txt
 
-## Our Enviroment
+## Inputs (Observations)
 - Uses inputs to the nural network (Observations) of pixes in the game include frames from the past. The shape is 252, 84, 1
 - This allows our network to see which way enemies are moving to avoid collisions and shoot to score points.
 <img src="https://i.imgur.com/OJ5JMUe.jpg" title="source: imgur.com" />
-- The enviroment provides a reward to allow the network to learn from it's actions. The reward I chose if fairly simple at the start of the frame the reward is -0.001. This means if the AI just stays alive and never shoots enemies it will have a low reward score. If an enemy is hit the reward is increased by 1. If you touch an enemy the game is over and your reward is -2.
+## Rewards
+- The enviroment provides a reward to allow the network to learn from it's actions. 
+- The reward I chose if fairly simple at the start of the frame the reward is -0.001. This means if the AI just stays alive and never shoots enemies it will have a low reward score. 
+- If an enemy is hit the reward is increased by 1. 
+- If you touch an enemy the game is over and your reward is -2.
