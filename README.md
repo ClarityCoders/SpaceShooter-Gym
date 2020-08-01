@@ -1,4 +1,4 @@
-<a href="https://www.youtube.com/claritycoders"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
+<a href="https://www.youtube.com/claritycoders" target="_blank"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
 # Custom SpaceShooter-Gym
 > Custom gym to use with OpenAI algorithms. Showing how you can create more test environments for your custom alorithms.
 > Once you get your enviroment setup in the OpenAI Gym format it is super easy to switch between different test algorithms. 
@@ -51,3 +51,10 @@ pip install stable-baselines[mpi]
 ### run_env_PPO.py and run_env_random.py
 - Examples of how to run your trained models. 
 - Also an example of using a random agent to get a baseline to see how your trained models perform.
+
+## Support
+
+ > Reach out to me at one of the following places!
+
+- YouTube <a href="https://www.youtube.com/claritycoders" target="_blank">Clarity Coders</a>
+- Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a>
