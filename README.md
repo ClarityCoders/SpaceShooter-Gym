@@ -1,7 +1,7 @@
 <a href="https://www.youtube.com/claritycoders" target="_blank"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
 # Custom SpaceShooter-Gym
-> Custom gym to use with OpenAI algorithms. Showing how you can create more test environments for your custom alorithms.
-> Once you get your enviroment setup in the OpenAI Gym format it is super easy to switch between different test algorithms. 
+> Custom gym to use with OpenAI algorithms. Showing how you can create more test environments for your custom algorithms.
+> Once you get your environment setup in the OpenAI Gym format it is super easy to switch between different test algorithms. 
 
 ## Setup
 - To use stable baselines you will need to install python 3.6 or 3.7
