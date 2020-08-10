@@ -22,7 +22,7 @@ class SpaceENV(gym.Env):
     pygame.init()
     super(SpaceENV, self).__init__()
 
-    self.fps = 300
+    self.fps = 30
     self.fps_clock = time.Clock()
     self.WIDTH = 500
     self.HEIGHT = 500

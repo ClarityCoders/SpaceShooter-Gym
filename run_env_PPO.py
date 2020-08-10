@@ -1,7 +1,7 @@
 # Test run of our enviroment by simply picking a random action.
 from SpaceENV import SpaceENV
 from stable_baselines import PPO1
-model = PPO1.load("PPO Space - 1000000")
+model = PPO1.load("50PPO")
 from PIL import Image
 import random
 import csv
